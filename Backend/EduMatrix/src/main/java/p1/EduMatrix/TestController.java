@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping("/api/test")
     public String testConnection() {
-        return "Hello from the backend!";
+        return "Hi from backend";
     }
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ApiService from './services/ApiService';
+import Landing from './components/Landing';
 
 const App = () => {
     const [message, setMessage] = useState('');
@@ -17,10 +18,13 @@ const App = () => {
     }, []);
 
     return (
-        <div>
-            <h1>Frontend-Backend Connection Test</h1>
-            <p>{message}</p> {/* Display the message */}
-        </div>
+        // <div>
+        //     <h1>Frontend-Backend Connection Test</h1>
+        //     <p>{message}</p> {/* Display the message */}
+        // </div>
+        <>
+            <Landing/>
+        </>
     );
 };
 

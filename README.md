@@ -1,2 +1,3 @@
-# EduMatrix
-# yo
+# i am building a website using react+vite as frontend and java,springboot and maven as backend. My website name is EduMatrix. It is basically a college management system means like it tracks attendence of students and store it, it has ai chat bot which takes pdf or texts, reads it and gives back output accordingly and also it has a place where teachers can upload lecture materials and students can use it.
+
+# i have pasted prompt for ai here. you guys can use it.
